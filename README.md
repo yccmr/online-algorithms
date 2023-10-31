@@ -1,8 +1,8 @@
 # Online Algorithms
 This repo consists of several classic online algorithms with detailed explanation, listed as follows:
 
-#### Ski Rental
+- Ski Rental
 
-#### K-Max Search
+- K-Max Search
 
-#### Online Knapsack
+- Online Knapsack
