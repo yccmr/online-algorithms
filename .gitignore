@@ -3,4 +3,7 @@
 
 # TeX
 *.tex
+
 images
+*.png
+*.sty
