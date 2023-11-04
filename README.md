@@ -3,6 +3,6 @@ This repo consists of several classic online algorithms with detailed explanatio
 
 - Ski Rental
 
-- K-Max Search
+- Time Series Search
 
 - Online Knapsack
