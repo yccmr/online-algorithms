@@ -13,4 +13,4 @@ $$
 \mathop{\text{max}}\limits_{\sigma} \frac{c(\text{Alg}, \sigma)}{c(\text{Opt}, \sigma)},
 $$
 
-where $\sigma$ is the input, and $c$ is the cost function of an algorithm.
+where $\sigma$ is the input, and $c$ is the cost function of an algorithm. In this case, $\sigma$ is $T$, and $c$ is the number of dollars spent.
