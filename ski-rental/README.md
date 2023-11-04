@@ -5,6 +5,7 @@
 You're to go skiing for total $T$ days, where $T$ is unknown. Assume renting skis costs \$ $1$ per day, and buying skis costs \$ $B > 1$. Once the skis are bought, you don't have to rent them from now on.
 
 
+
 ### Goal:
 
 Design an online algorithm s.t. the cost is as closed to the offline optimal (act as if $T$ is known) as possible. The performance metric of an algorithm is the *competitive ratio*, defined as follows:
@@ -16,14 +17,15 @@ $$
 where $\sigma$ is the input, and $c$ is the cost function of an algorithm. In this case, $\sigma$ is $T$, and $c$ is the number of dollars spent.
 
 
+
 ### Algorithms
 
 The slides include the following algorithms (as $B$ goes to $\infty$):
 
 - deterministic: $2$ (optimal)
-- randomized: $\frac{e}{e-1}$ (optimal)
+- randomized: $\frac{e}{e-1} \approx 1.58$ (optimal)
 
 Using the OPD framework, we have
 
-- deterministic for the fractional ski-rental: $\frac{e}{e-1}$
-- randomized for the integral ski-rental: $\frac{e}{e-1}$ (optimal)
+- deterministic for the fractional ski-rental: $\frac{e}{e-1} \approx 1.58$
+- randomized for the integral ski-rental: $\frac{e}{e-1} \approx 1.58$ (optimal)
