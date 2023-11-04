@@ -3,7 +3,7 @@
 
 # TeX
 *.tex
+*.sty
 
 images
 *.png
-*.sty
