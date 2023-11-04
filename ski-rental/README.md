@@ -4,6 +4,7 @@
 
 You're to go skiing for total $T$ days, where $T$ is unknown. Assume renting skis costs \$$1$ per day, and buying skis costs \$$B > 1$. Once the skis are bought, you don't have to rent them from now on.
 
+
 ### Goal:
 
 Design an online algorithm s.t. the cost is as closed to the offline optimal (act as if $T$ is known) as possible. The performance metric of an algorithm is 
