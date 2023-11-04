@@ -22,7 +22,7 @@ where $\sigma$ is the input, and $c$ is the cost function of an algorithm. In th
 
 The slides include the following algorithms (as $B$ goes to $\infty$):
 
-- deterministic: $2$ (optimal)
+- deterministic: $2$ (optimal deterministic)
 - randomized: $\frac{e}{e-1} \approx 1.58$ (optimal)
 
 Using the OPD framework, we have
