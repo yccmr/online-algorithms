@@ -2,7 +2,7 @@
 
 ### Problem Description:
 
-You're to go skiing for total $T$ days, where $T$ is unknown. Assume renting skis costs \$ $1$ per day, and buying skis costs \$ $B > 1$. Once the skis are bought, you don't have to rent them from then on.
+You're to go skiing for total $T$ days, where $T$ is unknown. Assume renting skis costs \$ $1$ per day, and buying skis costs \$ $B > 1$. At the beginning of each day, you will need to decide to rent or to buy skis. Once the skis are bought, you don't have to rent them from then on.
 
 
 
