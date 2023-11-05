@@ -20,12 +20,12 @@ where $\sigma$ is the input, and $c$ is the cost function of an algorithm. In th
 
 ### Algorithms
 
-The slides include the following algorithms in terms of their C.R. (as $B$ goes to $\infty$):
+The slides include the following algorithms with their C.R. (as $B$ goes to $\infty$):
 
 - deterministic: $2$ (optimal deterministic)
 - randomized: $\frac{e}{e-1} \approx 1.58$ (optimal)
 
-Using the OPD framework, we have
+Using the Online-Primal-Dual (OPD) framework, we have
 
 - deterministic for the fractional ski-rental: $\frac{e}{e-1} \approx 1.58$
 - randomized for the integral ski-rental: $\frac{e}{e-1} \approx 1.58$ (optimal)
