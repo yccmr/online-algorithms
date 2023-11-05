@@ -8,7 +8,7 @@ You're to go skiing for total $T$ days, where $T$ is unknown. Assume renting ski
 
 ### Goal:
 
-Design an online algorithm s.t. its cost is as closed to the offline optimal (act as if $T$ is known) as possible. The performance metric (i.e. the measure of how close they are) is the *competitive ratio*, defined as follows:
+Design an online algorithm s.t. its cost is as closed to the offline optimal (act as if $T$ is known) as possible. The performance metric (i.e. the measure of how close they are) is the *competitive ratio* (*C.R.*), defined as follows:
 
 $$
 \mathop{\text{max}}\limits_{\sigma} \frac{c(\text{Alg}, \sigma)}{c(\text{Opt}, \sigma)},
@@ -20,7 +20,7 @@ where $\sigma$ is the input, and $c$ is the cost function of an algorithm. In th
 
 ### Algorithms
 
-The slides include the following algorithms (as $B$ goes to $\infty$):
+The slides include the following algorithms in terms of their C.R. (as $B$ goes to $\infty$):
 
 - deterministic: $2$ (optimal deterministic)
 - randomized: $\frac{e}{e-1} \approx 1.58$ (optimal)
